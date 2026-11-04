@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
+import Header from "@/components/layout/Header";
 
 export const metadata: Metadata = {
   title: "Tech Brothers Lab",
@@ -15,6 +16,8 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="flex min-h-screen flex-col">
+
+        <Header />
 
         {/* 페이지 콘텐츠 */}
         <div className="flex-1">

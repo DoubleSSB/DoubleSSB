@@ -1,3 +1,4 @@
+import AboutUs from "@/components/home/AboutUs";
 import Hero from "@/components/home/Hero";
 import RecentPosts from "@/components/home/RecentPosts";
 import Link from "next/link";
@@ -47,6 +48,8 @@ export default function Home() {
       </section>
 
       <RecentPosts/>
+
+      <AboutUs/>
 
     </main>
   );
